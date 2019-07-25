@@ -1,0 +1,77 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header-container{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+
+}
+
+.header{
+  font-size: 50px;
+}
+
+#garden-container{
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+}
+
+.garden{
+  display: flex;
+  flex-direction: column;
+
+}
+
+#garden-1{
+  font-size: 40px;
+}
+
+.garden > div{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+#control-container{
+  display: flex;
+  margin: 20px;
+  justify-content: center;
+  border: solid black;
+  
+}
+
+#pause{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin: 20px;
+}
+
+#start{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin: 20px;
+}
+
+#stop{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin: 20px;
+}
+
+#save{
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  margin: 20px;
+}
+
+
+/* .garden > div> div {
+  
+} */
